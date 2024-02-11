@@ -1,22 +1,24 @@
+import { Menu } from 'lucide-react';
+ 
 
-
-export const Header = () => {
+export function Header() {
   return (
-    <header className="w-full text-blue-50 flex justify-between h-13">
+    <header className="w-full text-blue-50 flex justify-between">
         
         <div className="text-sm m-10">
           Logo
         </div>
 
         <nav className='flex'>
-            <ul className="flex m-10 w-[300px] justify-between">
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Projetos</li>
-                <li>Redes</li>
+            <ul className="bg-blue-900 flex items-center mx-r-10 my-4 justify-between rounded-l-lg hidden">
+              <li className='mx-2 hover:bg-blue-950 p-5'>Home</li>
+              <li className='mx-2 hover:bg-blue-950 p-5' >Sobre</li>
+              <li className='mx-2 hover:bg-blue-950 p-5'>Projetos</li>
+              <li className='mx-2 hover:bg-blue-950 p-5'>Redes</li>
             </ul>
-            <a href="#"></a>
-            <span></span>
+
+            <span className='flex justify-center items-center cursor-pointer'><Menu size={40} /></span> 
+            <span className='m-10'>OI</span>
         </nav>
         
 
