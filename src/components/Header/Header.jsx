@@ -19,7 +19,7 @@ export function Header() {
             </ul>
 
             <span className='flex justify-center items-center cursor-pointer'><Menu size={40} /></span> 
-            <span className='m-10'>OI</span>
+            <span className='m-10'></span>
         </nav>
         
 
