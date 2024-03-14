@@ -4,7 +4,7 @@ import { Code2 } from 'lucide-react';
 
 export function Header() {
   return (
-    <header className="w-full text-blue-50 flex justify-between">
+    <header className="w-full text-blue-50 flex justify-between fixed">
         
         <div className="flex items-center ml-10 cursor-pointer">
           <Code2 size={60} strokeWidth={1.5} />

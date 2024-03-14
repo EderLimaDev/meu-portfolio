@@ -3,7 +3,7 @@ import { ArrowDown } from 'lucide-react';
 
 export const Home = () => {
   return (
-    <div className='grid grid-cols-2 mx-20 mt-10'>
+    <div className='grid grid-cols-2 mx-20 h-screen'>
         <div className='flex flex-col text-font-blue justify-center items-center'>
             <h2 className='text-6xl pr-[180px]'>Olá, Sou</h2>
             <h1 className='text-8xl text-light-blue'>Eder Lima</h1>
